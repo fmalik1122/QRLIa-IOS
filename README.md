@@ -1,4 +1,4 @@
-# barcodeprinter
+# QRLIA
 
 A new Flutter project.
 
