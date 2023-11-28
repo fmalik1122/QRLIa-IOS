@@ -1,0 +1,93 @@
+name: barcodeprinter
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 2.0.9+19
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  firebase_core: ^1.12.0
+  firebase_messaging: ^11.2.7
+  firebase_auth: ^3.3.8
+  flutter_local_notifications: ^9.4.0
+  google_maps_flutter: ^2.2.0
+  cupertino_icons: ^1.0.2
+  flutter_svg_provider: ^1.0.3
+  image_picker: ^0.8.4+11
+  simple_connection_checker: ^0.2.1
+  shared_preferences: ^2.0.13
+  fluttertoast: ^8.0.8
+  provider: ^6.0.0
+  cached_network_image: ^3.2.0
+  qr_flutter: ^4.0.0
+  flutter_barcode_scanner: ^2.0.0
+  modal_bottom_sheet: ^2.1.2
+  sqflite: ^2.0.2+1
+  flutter_switch: ^0.3.2
+  location: ^4.4.0
+  geocoding: ^2.0.4
+  url_launcher: ^6.1.4
+  google_places_flutter: ^2.0.5
+  permission_handler: ^10.4.3
+  flutter_contacts: ^1.1.6
+  in_app_purchase: ^3.0.1
+  file_picker: ^4.2.0
+  retrofit: 3.0.1+1
+  dio: ^4.0.4
+  built_value: ^8.1.4
+  json_annotation: ^4.4.0
+  flutter_rating_bar: ^4.0.1
+  flutter_expandable_fab: ^2.0.0
+  story_view: ^0.15.0
+
+
+dependency_overrides:
+  firebase_messaging_platform_interface: 3.1.0
+  firebase_core_platform_interface: 4.5.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  retrofit_generator: ^4.0.1
+  build_runner: ^2.1.8
+  json_serializable: ^6.1.5
+  built_value_generator: ^8.1.4
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Lato-Regular_0
+      fonts:
+        - asset: fonts/Lato-Regular_0.ttf
+    - family: Poppins-Regular
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+    - family: Poppins-Bold
+      fonts:
+        - asset: fonts/Poppins-Bold.ttf
+    - family: Poppins-Medium
+      fonts:
+        - asset: fonts/Poppins-Medium.ttf
+
+  assets:
+    - assets/Edit_Profile/
+    - assets/Friend_List/
+    - assets/Home/
+    - assets/Login/
+    - assets/Profile/
+    - assets/Sign_up/
+    - assets/Splash/
+    - assets/flags/
+    - assets/
